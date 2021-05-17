@@ -1,0 +1,51 @@
+*
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;    
+}
+.heading
+{
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.desc
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top:5px;
+    padding:3px
+}
+video {
+    width: auto;
+    height: 200px;
+    /* border: 2px solid blue; */
+    
+}
+.top-container
+{
+    padding: 5px;
+    flex-direction: column;
+    background-color: violet;
+}
+
+
+/* img{
+    margin: auto;
+    align-content: center;
+    /* text-align: center; */
+} */
+.vedio-container {
+    /* top:0px; */
+    /* left: 0px; */
+    /* margin:10px; */
+    padding:10px;
+    /* border: 2px solid green; */
+}
+.videos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+}

@@ -1,0 +1,359 @@
+/* for top one */
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0px;
+    cursor: pointer;
+    
+
+}
+.backimage
+{
+    background: rgba(31, 9, 9, 0.7)  url(../pic/back2.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-blend-mode: darken;
+
+}
+
+.writer i
+{
+    color: #e6b8e2;
+    /* background-color: blueviolet; */
+    font-size: 20px;
+
+}
+.nav-list
+{
+    width: 70%;
+    display: flex;
+    align-items: center;
+   
+    /* border:2px solid palegreen; */
+}
+.nav-list .logo img
+{
+    width:70px;
+    height: 70px;
+    /* border: 2px solid blue; */
+    border-radius: 50;
+     margin: 0px 10px;
+}
+.nav-list li{
+    list-style: none;
+    margin:20px 30px;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* color: blueviolet; */
+}
+.nav-list li a:hover
+{
+    color: gray;
+}
+.rightNav
+{
+    text-align: right;
+    width: 30%;
+    text-align: right;
+   /* border:2px solid pink; */
+   padding:36px 30px;
+}
+#search
+{
+    width: 150px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    max-width: 50%;
+    margin: auto;
+    height: 60%;
+}
+.firstsection
+{
+    height: 98vh;
+}
+.first-half
+{
+    color: white;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-half img{
+    height: 180px;
+    width: 180px;
+    /* padding: 20px 2px; */
+    /* margin: 20px 0px; */
+    border: 2px solid white;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    box-shadow:  -18px 3px 20px black;
+}
+.text-big
+{
+
+    font-size: 30px;
+}
+.text-small{
+    font-size: 19px;
+}
+.buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1
+{
+    padding: 5px;
+    margin:7px 7px;
+    border-radius: 5px;
+    /* background-color: wheat; */
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border:2px solid white;
+}
+.btn-sm
+{
+    padding: 4px;
+    margin:7px 7px;
+    border-radius: 5px;
+    /* background-color: wheat; */
+    font-size: 13px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border:2px solid white;
+}
+.btn
+{
+    color: blanchedalmond;
+    color:chocolate;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+}
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    background-color: #f2c6d3;;
+    padding: 20px;
+}
+h2{
+    margin:10px;
+    font-size: 23px;
+    
+    font-family: 'Satisfy', cursive;
+}
+.inputs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    margin:10px;
+    padding:5px;
+    width:250px;
+    border-radius: 10px;;
+}
+#Query
+{
+    border-radius: 10px;
+    margin:10px 0px;
+    border:2px solid black
+}
+
+
+
+
+#profile-container
+{
+    display: flex;
+    font-family: 'Baloo 2', cursive;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    /* border: 2px solid red; */
+
+}
+#profile-container::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background: url(../pic/pic5.jpg)  no-repeat center center/cover;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.5;
+    
+}
+#profile-container #logo
+
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-left: green;
+    border-bottom: tomato;
+    border-right: rgb(196, 196, 71);
+    border-top: blue;
+    border-style: solid;
+    box-shadow:  8px 8px 2px #313175;
+    position: relative;
+    animation-name: Abhi;
+    animation-duration: 5s; /* less time fast spped , less time slow speed*/
+    animation-iteration-count: 2;/*no. of times runs*/
+    animation-delay: s;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes Abhi {
+    0%
+    {
+        left:0px;
+        top:0px;
+        /* background-color: rgb(238, 253, 31); */
+        border-radius: 50%;
+        border: 2px solid green;
+        transform: rotate(34deg);
+        box-shadow:  8px 8px 2px rgb(202, 86, 86);
+    }
+    25%
+    {
+        left:255px;
+        top:0px;
+        border-radius: 50%;
+        border: 2px solid indigo;
+        transform: rotate3d();
+    }
+    75%
+    {
+        left:255px;
+        top:40px;
+        border-radius: 50%;
+        border: 2px solid firebrick;
+        transform: rotate3d();
+        box-shadow:  8px 8px 2px rgb(23, 172, 102);
+    }
+    100%
+    {
+        top:40px;
+        left: 0px;
+        border-radius: 50%x;
+        border: 2px solid yellow;
+        transform: rotate3d();
+    }
+
+}
+#profile-container .bottom
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top:30px;
+    /* border: 2px solid green; */
+    
+}
+#profile-container .bottom  img
+{
+    height: 28px;
+    width: 35px;
+    margin-left: 10px;
+}
+#profile-container .image 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+margin: 10px
+}
+
+ h1
+{
+    padding: 10px 50px;
+    font-family: 'Satisfy', cursive;
+}
+.center
+{
+    text-align: center;
+}
+.container2
+{
+    background-color: black;
+    height: 80px;
+}
+#search
+{
+    width: 150px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+footer{
+    /* margin:20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 90px;
+}
+footer p
+{
+    font-size: 20px;
+    color: white;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* for below one */
+
