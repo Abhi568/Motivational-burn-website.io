@@ -37,11 +37,11 @@ if ($error === 0)
             $img_ex_lc = strtolower($img_ex);
             $allowed_exs = array("jpg", "jpeg", "png"); 
     
-    			if (in_array($img_ex_lc, $allowed_exs)) 
+    	   if (in_array($img_ex_lc, $allowed_exs)) 
                 {
-    				$new_img_name = uniqid("IMG-", true).'.'.$img_ex_lc;
-    				$img_upload_path = 'upload/'.$new_img_name;
-    				move_uploaded_file($tmp_name, $img_upload_path);
+		    $new_img_name = uniqid("IMG-", true).'.'.$img_ex_lc;
+		    $img_upload_path = 'upload/'.$new_img_name;
+		    move_uploaded_file($tmp_name, $img_upload_path);
                     // move_uploaded_file(filename, destination);
 		    // Insert into Database
                     $sql="SELECT * FROM `login` WHERE `email`='$email'";
@@ -52,8 +52,8 @@ if ($error === 0)
                     {
                         ?>
                         <script>
-                        alert("Email already exist");
-                        window.open("Log_details/register_page.php","_self");
+				alert("Email already exist");
+				window.open("Log_details/register_page.php","_self");
                         </script>
                         <?php
                     }
