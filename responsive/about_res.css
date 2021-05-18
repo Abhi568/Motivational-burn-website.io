@@ -15,10 +15,11 @@
 {
     flex-direction: column;
 }
-.nav-list li{
+
+.nav-list li
+{
     list-style: none;
     margin:10px 30px;
-
 }
 
 .text-big
