@@ -45,11 +45,8 @@
                     <img id="images" src="" alt="Image" style="height: 40px; width: 27px; border-radius: 3px;">
                 </div>
                 </p>
-                <?php
-                include 'name.php';
-                ?>
-                
-
+                <?php include 'name.php';?>
+         
                 <div class="buttons">
                     <button onclick="myFunction()" class="btn1">
                         <p id="demo">Like</p>
