@@ -249,7 +249,6 @@ input{
     {
         left:0px;
         top:0px;
-        /* background-color: rgb(238, 253, 31); */
         border-radius: 50%;
         border: 2px solid green;
         transform: rotate(34deg);
