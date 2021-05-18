@@ -9,7 +9,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
  {
     include "connection.php";
     print_r($_FILES['my_image']);
-	// echo "</pre>";
+     // echo "</pre>";
     $user=$_POST['username1'];
     $pass=$_POST['password1'];
     $email=$_POST['email'];
@@ -18,16 +18,15 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
     $tmp_name = $_FILES['my_image']['tmp_name'];
     $error = $_FILES['my_image']['error'];
 
-
-	if ($error === 0)
+if ($error === 0)
     {
-		if ($img_size >= 1025000) 
+	if ($img_size >= 1025000) 
         {
             ?>
-            <script>
-            alert("Image size can't be larger than 1 MB");
-            window.open("Log_details/register_page.php","_self");
-            </script>
+		    <script>
+			    alert("Image size can't be larger than 1 MB");
+			    window.open("Log_details/register_page.php","_self");
+		    </script>
             <?php
         }
 
