@@ -108,6 +108,7 @@ else
     window.open("Log_details/Login_page.php","_self");
     </script>
     <?php
-    }
-    ?>
+}
+?>
+
 		
