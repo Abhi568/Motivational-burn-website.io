@@ -24,12 +24,14 @@
 
 .text-big
 {
-
     font-size: 23px;
 }
-.text-small{
+
+.text-small
+{
     font-size: 15px;
 }
+
 .writer i
 {
     font-size: 17px;
