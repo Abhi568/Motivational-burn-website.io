@@ -8,7 +8,6 @@ if (isset($_SESSION['uid']))
 if (isset($_POST['submit']) && isset($_FILES['my_image']))
  {
     include "connection.php";
-	// echo "<pre>";
 	print_r($_FILES['my_image']);
 	// echo "</pre>";
     
