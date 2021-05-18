@@ -172,9 +172,9 @@
 h2{
     margin:10px;
     font-size: 23px;
-    
     font-family: 'Satisfy', cursive;
 }
+
 .inputs
 {
     display: flex;
@@ -196,10 +196,7 @@ input{
     border:2px solid black
 }
 
-
-
-
-#profile-container
+# for profile-container
 {
     display: flex;
     font-family: 'Baloo 2', cursive;
