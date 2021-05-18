@@ -105,14 +105,13 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
     }
 }
 
-else {
+else 
+{
     ?>
     <script>
     window.open("Log_details/Login_page.php","_self");
     </script>
     <?php
     }
-    
-
     ?>
 		
