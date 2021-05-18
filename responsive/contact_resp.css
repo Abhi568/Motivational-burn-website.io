@@ -84,12 +84,12 @@
     height: 100px;
     width: 100px;
 }
+
 @keyframes Abhi {
     0%
     {
         left:0px;
         top:0px;
-        /* background-color: rgb(238, 253, 31); */
         border-radius: 50%;
         border: 2px solid green;
         transform: rotate(34deg);
@@ -120,13 +120,11 @@
         border: 2px solid yellow;
         transform: rotate3d();
     }
-
-
 }
+
 #profile-container
 {
-    height: 500px;
-    /* width:900px; */    
+    height: 500px;   
 }
 
 #profile-container::before
@@ -138,8 +136,7 @@ h2
 {
     padding: 0px 0px;
     font-size: 15px;
-    font-family: 'Satisfy', cursive;
-    
+    font-family: 'Satisfy', cursive;   
 }
 
 h1
