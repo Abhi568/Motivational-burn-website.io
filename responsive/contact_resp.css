@@ -126,13 +126,12 @@
 #profile-container
 {
     height: 500px;
-    /* width:900px; */
-    
+    /* width:900px; */    
 }
+
 #profile-container::before
 {
     height: 500px;
-    /* width:900px; */
 }
 
 h2
@@ -142,10 +141,10 @@ h2
     font-family: 'Satisfy', cursive;
     
 }
+
 h1
 {
     padding: 5px 10px;
-    /* font-family: 'Satisfy', cursive; */
     font-size: 20px;
 }
 
@@ -155,9 +154,7 @@ h1
     height: 54px;
 }
 
-
-
-
-footer {
+footer 
+{
     margin-top: 10px;
 }
