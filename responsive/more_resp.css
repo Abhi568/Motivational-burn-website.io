@@ -99,15 +99,18 @@
 .firstsection {
     height:75vh;
 }
+
 .section
 {
     flex-direction: column-reverse;
     margin-top: 37px;
 }
+
 .secleft
 {
     flex-direction: column-reverse;
 }
+
 .paras
 {
     padding: 13px 7px;
