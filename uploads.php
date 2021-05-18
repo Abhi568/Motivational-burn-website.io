@@ -23,10 +23,10 @@ if ($error === 0)
 	if ($img_size >= 1025000) 
         {
             ?>
-		    <script>
-			    alert("Image size can't be larger than 1 MB");
-			    window.open("Log_details/register_page.php","_self");
-		    </script>
+	    <script>
+		    alert("Image size can't be larger than 1 MB");
+		    window.open("Log_details/register_page.php","_self");
+	    </script>
             <?php
         }
 
