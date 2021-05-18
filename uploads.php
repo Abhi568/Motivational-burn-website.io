@@ -91,8 +91,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
                     window.open("Log_details/register_page.php","_self");
                     </script>
                     <?php
-                }
-                
+                }   
         }
     }
     else
