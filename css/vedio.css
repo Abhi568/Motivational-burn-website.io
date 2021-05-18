@@ -46,12 +46,12 @@ img
     background-color: violet;
 }
 /*
+for Vedio showing
 video {
     width: 400px;
     height: 400px;
     margin:10px;
 }
-
 .vedio-container {
     background: url('../pic/back2.jpg') no-repeat  center center/cover;
     display: flex;
@@ -60,7 +60,6 @@ video {
     align-items: center;
     
 }
-
 .videos {
     justify-content: center;
     align-items: center;
