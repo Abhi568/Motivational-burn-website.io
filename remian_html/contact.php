@@ -85,7 +85,6 @@
         </div>
     </div>
 
-
     <div class="contact">
         <h1>Contact me</h1>
         <div class="inputs">
