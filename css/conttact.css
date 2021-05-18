@@ -279,8 +279,8 @@ input{
         border: 2px solid yellow;
         transform: rotate3d();
     }
-
 }
+
 #profile-container .bottom
 {
     display:flex;
@@ -288,9 +288,8 @@ input{
     justify-content:center ;
     align-items: center;
     margin-top:30px;
-    /* border: 2px solid green; */
-    
 }
+
 #profile-container .bottom  img
 {
     height: 28px;
@@ -305,7 +304,7 @@ input{
 }
 
 span{
-margin: 10px
+    margin: 10px
 }
 
  h1
@@ -329,26 +328,24 @@ margin: 10px
     padding: 5px;
 }
 
-footer{
-    /* margin:20px; */
+footer
+{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: gray;
     height: 90px;
 }
+
 footer p
 {
     font-size: 20px;
     color: white;
 }
+
 .footer
 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-/* for below one */
-
