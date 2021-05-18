@@ -72,11 +72,11 @@ if ($error === 0)
     				$sql ="INSERT INTO `login` (`username`, `password` , `image_url`,`email`) VALUES ('$user', '$pass','$new_img_name','$email')";
     				mysqli_query($connection, $sql);
     				?>
-                    <script>
-                    alert("Sucessfully Registered");
-                    window.open("index.php","_self");
-                    </script>
-                    <?php
+				<script>
+				alert("Sucessfully Registered");
+				window.open("index.php","_self");
+				</script>
+				<?php
                      }
                     }
                 else
