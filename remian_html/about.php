@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,7 +60,6 @@
 
     <div class="about">
         <div class="description">
-        
             <p class="into">
                 Hey Everyone , I am <strong class="color">Abhishek Jaiswal</strong> who is always happy &#128512 &#128512 , Hope all you are not taking it as a joke
                 because I am always trying to make myself Happy and Motivated. Now you're thinking If I am motivated,
