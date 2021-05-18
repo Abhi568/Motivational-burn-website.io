@@ -89,15 +89,16 @@
 {
     flex-direction: column-reverse;
 }
+
 .paras
 {
-   padding: 13px 7px;
-
+    padding: 13px 7px;
 }
 footer {
    
     margin-top: 10px;
 }
+
 .thumbnail img
 {
 width:150px;
