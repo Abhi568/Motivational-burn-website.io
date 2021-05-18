@@ -8,7 +8,7 @@
     <link rel="stylesheet" media="screen and (max-width:  1000px)" href="responsive/index_resp.css">
     <title>Home page</title>
 </head>
-
+    
 <body>
     
     <div class="navbar backimage h-nav-res">
