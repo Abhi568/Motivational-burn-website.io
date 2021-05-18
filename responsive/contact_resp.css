@@ -1,13 +1,8 @@
-/* body{
-    
-    background-color: red;
-} */
 .navbar
 {
     flex-direction: column;
     transition: 2s;
     height:400px;
-
 }
 .nav-list
 {
