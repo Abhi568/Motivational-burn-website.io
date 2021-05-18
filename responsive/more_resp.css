@@ -51,10 +51,12 @@
     height: 100px;
     width: 100px;
 }
+
 .btn-sm
 {
     margin:5px auto;
 }
+
 .rightNav {
     display: flex;
     justify-content: center;
@@ -62,6 +64,7 @@
     flex-direction: column;
     padding:15px 30px
 }
+
 .burger
 {
     position: absolute;
@@ -69,13 +72,7 @@
     top:10px;
 
 }
-/* .writer i
-{
-    color: blue;
-    background-color: blueviolet;
-    font-size: 20px;
 
-} */
 .line
 {
     width:33px;
@@ -83,6 +80,7 @@
     height:3px;
     margin:3px;
 }
+
 .h-nav-res
 {
     height:70px;
