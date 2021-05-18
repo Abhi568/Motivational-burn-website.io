@@ -47,6 +47,7 @@
 {
     margin:5px auto;
 }
+
 .rightNav {
     display: flex;
     justify-content: center;
@@ -59,11 +60,13 @@
     height: 100px;
     width: 100px;
 }
+
 .box-main {
     flex-direction: column-reverse;
     max-width: 81%;
     height: 100%;
 }
+
 .writer i
 {
     font-size: 17px;
