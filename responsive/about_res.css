@@ -75,15 +75,20 @@
 {
     height:70px;
 }
+
 .v-class-res /*visibility class */
 {
     opacity: 0;
 }
-.box-main {
+
+.box-main
+{
     flex-direction: column-reverse;
     max-width: 81%;
     height: 100%;
 }
-footer {
+
+footer
+{
     margin-top: 10px;
 }
