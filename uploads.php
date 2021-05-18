@@ -10,7 +10,6 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
     include "connection.php";
 	print_r($_FILES['my_image']);
 	// echo "</pre>";
-    
     $user=$_POST['username1'];
     $pass=$_POST['password1'];
     $email=$_POST['email'];
@@ -45,10 +44,8 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
     				$img_upload_path = 'upload/'.$new_img_name;
     				move_uploaded_file($tmp_name, $img_upload_path);
                     // move_uploaded_file(filename, destination);
-
-    				// Insert into Database
+		    // Insert into Database
                     $sql="SELECT * FROM `login` WHERE `email`='$email'";
-                    
                     $result=mysqli_query($connection,$sql) ;
                     $total_rows=mysqli_num_rows($result);            
                     
