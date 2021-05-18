@@ -50,7 +50,8 @@
     margin:5px auto;
 }
 
-.rightNav {
+.rightNav
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +64,8 @@
     width: 100px;
 }
 
-.box-main {
+.box-main
+{
     flex-direction: column-reverse;
     max-width: 81%;
     height: 100%;
@@ -72,17 +74,20 @@
 .writer i
 {
     font-size: 17px;
-
 }
+
 .text-big
 {
-
     font-size: 23px;
 }
-.text-small{
+
+.text-small
+{
     font-size: 15px;
 }
-.firstsection {
+
+.firstsection 
+{
     height:75vh;
 }
 
