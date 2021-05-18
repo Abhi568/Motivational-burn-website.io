@@ -1,4 +1,3 @@
-
 function login()
 {
     window.open("Log_details/Login_page.php","_self");
