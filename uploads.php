@@ -8,15 +8,15 @@ if (isset($_SESSION['uid']))
 if (isset($_POST['submit']) && isset($_FILES['my_image']))
  {
     include "connection.php";
-	print_r($_FILES['my_image']);
+    print_r($_FILES['my_image']);
 	// echo "</pre>";
     $user=$_POST['username1'];
     $pass=$_POST['password1'];
     $email=$_POST['email'];
     $img_name = $_FILES['my_image']['name'];
-	$img_size = $_FILES['my_image']['size'];
-	$tmp_name = $_FILES['my_image']['tmp_name'];
-	$error = $_FILES['my_image']['error'];
+    $img_size = $_FILES['my_image']['size'];
+    $tmp_name = $_FILES['my_image']['tmp_name'];
+    $error = $_FILES['my_image']['error'];
 
 
 	if ($error === 0)
