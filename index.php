@@ -153,12 +153,12 @@
             <img src="pic/pic6.jpg" alt="mypic">
         </div>
     </section>
+
     <footer>
         <p class="footer">
             Copyright &copy; All rights are reserved
         </p>
     </footer>
-
     <script src="js/index_js.js"></script>
     <script src="js/log_file.js"></script>
     <script src="js/search.js"></script>
