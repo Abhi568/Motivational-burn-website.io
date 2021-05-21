@@ -1,7 +1,7 @@
 This is motivational website using Html , Css , Javacript and Php.
 
 It is a motivational website ("Motivation burn ") which is fully responsive and provides ease to users to use it . User can search any blog or story by its heading in search box , login and logout process is also there . It helps people to overcome their depression and motivate them towards their goals. I have also written all my thoughts as a blog . In this website I have included all my thoughts and also speeches of successful people whom I liked most. I have used Css , Html , Javasript and Php.
-Process: First click on 'Login or register' button ,then a form will open and in that form along with fields which user need to fill , there are two buttons as well Login and Register  , the currently open form for login . If user click on Register another form would open , where user need to enter his/her Email , name and which password he/she want to set .After clicking on the register , he will redirected to home page . Now for login user can enter his credentails in the login form and he/shewill be logged in and , in  page his profile image and name will be shown.
+Process: First click on 'Login or register' button ,then a form will open and in that form along with fields which user need to fill , there are two buttons as well Login and Register  , the currently open form for login . If user click on Register another form would open , where user need to enter his/her Email , name and which password he/she want to set .After clicking on the register , it will redirected to home page . Now for login user can enter his credentails in the login form and he/she will be logged in and in  page his profile image and name will be shown.
 
 I have hosted this website on 000webhost.
 
