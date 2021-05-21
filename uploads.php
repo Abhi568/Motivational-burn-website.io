@@ -72,10 +72,10 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
                     }
                     else
                     {
-                    $hass_pass=password_hash($pass,PASSWORD_DEFAULT);
-    				$sql ="INSERT INTO `login` (`username`, `password` , `image_url`,`email`) VALUES ('$user', '$hass_pass','$new_img_name','$email')";
-    				mysqli_query($connection, $sql);
-    				?>
+			$hass_pass=password_hash($pass,PASSWORD_DEFAULT);
+			$sql ="INSERT INTO `login` (`username`, `password` , `image_url`,`email`) VALUES ('$user', '$hass_pass','$new_img_name','$email')";
+			mysqli_query($connection, $sql);
+			?>
                     <script>
                     alert("Sucessfully Registered");
                     window.open("index.php","_self");
