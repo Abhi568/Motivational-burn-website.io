@@ -1,5 +1,9 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
@@ -8,7 +12,7 @@
     <link rel="stylesheet" media="screen and (max-width:  1000px)" href="responsive/index_resp.css">
     <title>Home page</title>
 </head>
-    
+
 <body>
     
     <div class="navbar backimage h-nav-res">
@@ -45,8 +49,11 @@
                     <img id="images" src="" alt="Image" style="height: 40px; width: 27px; border-radius: 3px;">
                 </div>
                 </p>
-                <?php include 'name.php';?>
-         
+                <?php
+                include 'name.php';
+                ?>
+                
+
                 <div class="buttons">
                     <button onclick="myFunction()" class="btn1">
                         <p id="demo">Like</p>
@@ -153,15 +160,16 @@
             <img src="pic/pic6.jpg" alt="mypic">
         </div>
     </section>
-
     <footer>
         <p class="footer">
             Copyright &copy; All rights are reserved
         </p>
     </footer>
+
     <script src="js/index_js.js"></script>
     <script src="js/log_file.js"></script>
     <script src="js/search.js"></script>
 
 </body>
+
 </html>
