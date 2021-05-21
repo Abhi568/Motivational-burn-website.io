@@ -94,5 +94,4 @@ session_start();
 
     <script src="../js/log_files_remain.js"></script>
 </body>
-
 </html>
