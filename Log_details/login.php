@@ -49,10 +49,6 @@ else
          alert("password do not match");
         </script>
          <?php
-    }
-
-    
-    
-    
+    } 
 }
 ?>
