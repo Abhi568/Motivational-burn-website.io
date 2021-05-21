@@ -11,18 +11,17 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
 	// echo "<pre>";
 	// print_r($_FILES['my_image']);
 	// echo "</pre>";
-    
-    $user=$_POST['username1'];
-    $pass=$_POST['password1'];
-    $email=$_POST['email'];
-    $img_name = $_FILES['my_image']['name'];
+        $user=$_POST['username1'];
+        $pass=$_POST['password1'];
+        $email=$_POST['email'];
+        $img_name = $_FILES['my_image']['name'];
 	$img_size = $_FILES['my_image']['size'];
 	$tmp_name = $_FILES['my_image']['tmp_name'];
 	$error = $_FILES['my_image']['error'];
 
 
 	if ($error === 0)
-    {
+        {
 		if ($img_size >= 1025000) 
         {
             ?>
@@ -41,7 +40,7 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
             $allowed_exs = array("jpg", "jpeg", "png"); 
     
     			if (in_array($img_ex_lc, $allowed_exs)) 
-                {
+                        {
     				$new_img_name = uniqid("IMG-", true).'.'.$img_ex_lc;
     				$img_upload_path = 'upload/'.$new_img_name;
     				move_uploaded_file($tmp_name, $img_upload_path);
@@ -49,7 +48,6 @@ if (isset($_POST['submit']) && isset($_FILES['my_image']))
 
     				// Insert into Database
                     $sql="SELECT * FROM `login` WHERE `email`='$email'";
-                    
                     $result=mysqli_query($connection,$sql) ;
                     $total_rows=mysqli_num_rows($result);            
                     
