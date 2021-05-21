@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
 <body>
 <?php if (isset($_GET['error'])): ?>
 		<p><?php echo $_GET['error']; ?></p>
-	<?php endif ?>
+<?php endif ?>
     <div class="container">
         <form id="form1"  method="post" enctype="multipart/form-data">
             <h1> Login</h1>

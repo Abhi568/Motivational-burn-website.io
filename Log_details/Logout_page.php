@@ -1,4 +1,5 @@
 <?php
+session_start();
 echo  '<!doctype html>
 <html lang="en">
 
@@ -49,12 +50,10 @@ echo  '<!doctype html>
                 <p class="card-text">I hope You have enjoyed the Website Content </p>'
                 ?>
                 <?php 
-                session_start();
                 if ( isset($_SESSION["uid"]))
                 {
                     echo '<a href="../index.php">Home page</a>';
                     echo '   '.'<a href="Logout.php">Logout</a>';
-                
                 }
                 ?>
                 <?php

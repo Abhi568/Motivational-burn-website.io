@@ -5,6 +5,7 @@ $user=$_POST['username1'];
 $pass=$_POST['password1'];
 $email=$_POST['email'];
 $hash_pass=password_hash($pass,PASSWORD_DEFAULT);
+// echo $hash_pass;
 $sql="SELECT * FROM `login` WHERE `username`='$user' AND `email`='$email'";
 $result=mysqli_query($connection,$sql) ;
 $total_rows=mysqli_num_rows($result);
@@ -37,8 +38,7 @@ else
             window.open("../index.php","_self");
             </script>
             <?php
-            break;
-            
+            break;   
             
         }
     }
