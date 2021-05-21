@@ -25,7 +25,7 @@ connection.php : This establishes the connection with the database.
 
 name.php :  This take care of username and user profile images of home page.
 
-name_remain.php:  This take care of username and user profile images except home page.
+name_remain.php:  This take care of username and user profile images except home page,
 
 https://motivational0website.000webhostapp.com/
 
