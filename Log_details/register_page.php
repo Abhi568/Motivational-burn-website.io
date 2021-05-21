@@ -85,10 +85,10 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
 	<?php endif ?>
     <div class="container">
         <form id="form1" action="../uploads.php" method="post" enctype="multipart/form-data">
-        <h1> Enter</h1>
-            <input type="email" name="email" id="email" placeholder="Email">
-            <input type="text" name="username1" id="username" placeholder="Username">
-            <input type="password" name="password1" id="password" autocomplete="additional-name" placeholder="Password">
+            <h1> Register</h1>
+            <input type="email" name="email" id="email" placeholder="Email" maxlength="21">
+            <input type="text" name="username1" id="username" placeholder="Username" maxlength="20">
+            <input type="password" name="password1" id="password" autocomplete="additional-name" placeholder="Password" maxlength="20">
             <div class="contain">
                 <input type="file"  name="my_image">
                 <input type="submit"  name="submit" value="Register">

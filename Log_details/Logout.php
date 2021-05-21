@@ -1,8 +1,7 @@
 <?php
 
 session_start();
-// unset()
-
+session_unset();
 unset($_SESSION['uid']);
 // echo "okk";
 unset($_SESSION['name']);
