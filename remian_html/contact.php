@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,6 +87,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="contact">
         <h1>Contact me</h1>

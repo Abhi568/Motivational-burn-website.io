@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,6 +93,7 @@
             <img src="../pic/pic14.png" alt="mypic">
         </div>
     </section>
+
 
     <section class="section secleft">
         <div class="paras">
