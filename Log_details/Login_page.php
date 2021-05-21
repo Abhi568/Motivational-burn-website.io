@@ -2,7 +2,7 @@
 session_start();
 if (isset($_SESSION['uid']))
 {
-    ?>
+ ?>
 <script>
 alert("First Logout from your Current Account");
 window.open("Logout_page.php","_self");
